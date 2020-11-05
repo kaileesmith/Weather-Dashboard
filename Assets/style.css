@@ -1,0 +1,20 @@
+.jumbotron {
+    height: 50px;
+    background-image: url(./Images/umbrellabackground.jpg);
+    background-size: cover;
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #F56E00;
+}
+
+#sCity{
+    /* width: 200px;
+    height: 700px; 
+    background-color: #8BB0D0; */
+    float: left;
+}
+
