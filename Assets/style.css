@@ -18,3 +18,12 @@
     float: left;
 }
 
+#currentCity{
+
+font-weight: bolder;
+}
+
+#currentDate{
+    font-size: 20px;
+    font-weight: bold;
+}
