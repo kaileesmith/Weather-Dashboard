@@ -24,39 +24,85 @@
             <h1 class="display-4 title">Weather Dashboard</h1>
     </header>
 
-    <section class="container" id="sCity">
+    <section class="container-fluid" id="sCity">
         <!-- City search -->
         <div class="row">
-            <div class="col-md-3 bg-light">
+            <div class="col-md-4 bg-light">
                     <h3>Search for a City:</h3>
                 <form class="form-inline">
                         <div class="form-group">
-                            <input type="search" class="form-control">
+                            <input type="search" class="form-control" id="searchOption">
                         </div>
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-search-location"></i></button>
+                        <button type="button" class="btn btn-primary" id="searchBtn"><i class="fas fa-search-location"></i></button>
                 </form>
             </div>
-        </div>
-
-        <!-- card to store searched cities -->
-        <div class="card">
-            <ul class="list-group">
-            </ul>
-        </div>
+        
         <!-- Current City -->
-        <div class="col-md-9">
-            <div id="currentCity">
-
-            </div>   
-
+        <aside class="container">
+                <div class="col-md-8">
+                    <div id="currentDate"></div>
+                    <img src="" id="icon">
+                    <div id="currentCity"></div> 
+                    <h1 id="location"></h1>
+                        <h1 id="temp"></h1>
+                        <h1 id="wind"></h1>
+                        <h1 id="humidity"></h1>
+                </div>   
+            </div>
+        </aside>
+        <!-- card to store searched cities -->
+        <div class="row">
+            <div class="card">
+                <ul class="list-group" id= "pastCities">
+                    <il></il>
+                </ul>
+            </div>
+        </div>
 <!-- 5 day forcast -->
-    <article class="container">
+    <article class="container" id="forecast5D">
         <div class="col-md-12">
-            <h5 id="forecast5D" id="hide">5 day Forecast:</h5>
+            <h3>5 day Forecast:</h3>
 
             <div class="row" id="forecast">
-
+                <!-- first day -->
+                <div class="container">
+                    <div id="fdate"></div>
+                    <div id="ftemp"></div>
+                    <div id="fhumidity"></div>
+                </div>
+            
+            <!-- second day -->
+            <div class="container">
+                <div class="row" id="forecast1"></div>
+                    <div id="fdate1"></div>
+                    <div id="ftemp1"></div>
+                    <div id="fhumidity1"></div>
             </div>
+
+            <!-- third day -->
+            <div class="container">
+                <div class="row" id="forecast2"></div>
+                    <div id="fdate2"></div>
+                    <div id="ftemp2"></div>
+                    <div id="fhumidity2"></div>
+            </div>
+            
+            <!-- fourth day -->
+            <div class="container">
+                <div class="row" id="forecast3"></div>
+                    <div id="fdate3"></div>
+                    <div id="ftemp3"></div>
+                    <div id="fhumidity3"></div>
+            </div>
+            
+            <!-- fifth day -->
+            <div class="container">
+                <div class="row" id="forecast4"></div>
+                    <div id="fdate4"></div>
+                    <div id="ftemp4"></div>
+                    <div id="fhumidity4"></div>
+            </div>
+        </div>
         </div>
     </article>
 </section>
