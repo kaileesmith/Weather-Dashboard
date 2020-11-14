@@ -119,9 +119,25 @@ function pullForecast( data) {
     document.getElementById('fhumidity4').innerText = "Humidity: " + data.list[4].main.humidity + "%";
 
 
-//     $("#forecast").attr(
-//         "style",
-//         "background-color: navy; color:white"
-//     );
+    $("#forecast").attr(
+        "style",
+        "background-color: navy; color:white"
+    );
+    $("#forecast1").attr(
+        "style",
+        "background-color: navy; color:white"
+    );
+    $("#forecast2").attr(
+        "style",
+        "background-color: navy; color:white"
+    );
+    $("#forecast3").attr(
+        "style",
+        "background-color: navy; color:white"
+    );
+    $("#forecast4").attr(
+        "style",
+        "background-color: navy; color:white"
+    );
 }
 

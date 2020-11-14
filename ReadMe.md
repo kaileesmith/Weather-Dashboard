@@ -28,7 +28,8 @@ THEN I am again presented with current and future conditions for that city
 
 ## Screenshot of Dashboard
 
-![Screenshot of the Dashboard with ](http://)
+![Screenshot of the Dashboard with ](./Screenshot.JPG)
 
-## Technologies 
+## Link to Deployed Application
 
+[Click Here!](https://)
